@@ -1,0 +1,122 @@
+/*   Colors for project
+primary-overlay: rgba(40,146,166,0.8)
+blue: #0069D9
+*/
+.btn {
+	border-radius: 0;
+}
+
+body {
+  position: relative;
+	margin-top: 80px; /* was 105 */
+}
+
+.navbar {
+/* 	box-shadow: 2px 2px 5px #0069D9; */
+/* 	opacity: 0.9; */
+	background: #ffffff;
+}
+
+.navbar-brand {
+	text-transform: uppercase;	
+}
+.navbar .nav-item {
+	font-size: 1.2rem;
+	padding-right: 20px;
+}
+
+/* Showcase Area */
+
+#showcase {
+	position: relative;
+	background: url('https://images.pexels.com/photos/6565/apple-desk-laptop-working.jpg?w=1260&h=750&auto=compress&cs=tinysrgb') center center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	min-height: 700px;
+}
+
+/* About Section */
+
+.about-header {
+	width: 75%;
+	margin: auto;
+	border-bottom: 1px #dddddd solid;
+}
+
+/* Projects Section */
+
+.projects-header {
+	width: 75%;
+	margin: auto;
+	border-bottom: 1px #dddddd solid;
+}
+
+/* Contact Section */
+
+.contact-header {
+	width: 75%;
+	margin: auto;
+	border-bottom: 1px #dddddd solid;
+}
+
+#projects .fa {
+	font-size: 25px;
+}
+
+	
+#contact img {
+	border-radius: 50%;
+}
+
+.social .btn {
+	color: #ffffff;
+}
+
+.social .btn-tw {
+	background: #36B9FF;
+}
+.social .btn-li {
+	background: #0075B3;
+}
+
+.social .btn-ins {
+	background: #E5395E;
+}
+
+.social .btn-pin {
+	background: #CB2027;
+}
+
+.social .btn-so {
+	background: #F77B19;
+}
+
+.social .btn-git {
+	background: #000000;
+}
+
+.social .btn-email {
+	background: #4181EB;
+}
+
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+#about-img{
+  margin-top:100px;
+  margin-bottom:50px;
+  border-radius:50%;
+}
+
